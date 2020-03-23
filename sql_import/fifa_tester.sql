@@ -33,8 +33,8 @@ USE fifa_tester;
 
 CREATE TABLE `requests` (
   `id` int(11) NOT NULL,
-  `user_id` int(11) NOT NULL,
-  `match_ids` int(11) NOT NULL,
+  `user_id` text NOT NULL,
+  `match_ids` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------

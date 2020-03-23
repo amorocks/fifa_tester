@@ -36,7 +36,7 @@ if(!isset($_SESSION['key'])) {
 </head>
 <body>
 	<h1>FIFA Test API</h1>
-	<p>Gebruik deze API om je C#-applicatie te testen, totdat de API van je eigen groep klaar is. N.b.: ieder endpoint geeft altijd willekeurig 0 - 10 resultaten terug.</p>
+	<p>Gebruik deze API om je C#-applicatie te testen, totdat de API van je eigen groep klaar is.</p>
 
 	<h2>1. <a href="api/matches.php" target="_blank">api/matches.php?key={user}</a></h2>
   	<p>Dit endpoint geeft informatie over 0-10 willekeurige matches.</p>
