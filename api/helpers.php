@@ -4,6 +4,8 @@ safety_check();
 
 function safety_check($prefix = "../")
 {
+  if(isset($_GET['local'])) return;
+
   $errors = array();
   if(is_dir($prefix."misc")) $errors[] = "misc";
   if(is_dir($prefix."seed_scripts")) $errors[] = "seed_scripts";

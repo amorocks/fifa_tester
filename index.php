@@ -37,6 +37,8 @@ if(!isset($_SESSION['key'])) {
 <body>
 	<h1>FIFA Test API</h1>
 	<p>Gebruik deze API om je C#-applicatie te testen, totdat de API van je eigen groep klaar is.</p>
+	
+	<div style="background-color: #f9c5d6; padding: 20px;"><strong>Key:</strong> gebruik als key steeds je gebruikersnaam, dus in het formaat van D123456 of voor docenten ab01.</div>
 
 	<h2>1. <a href="api/matches.php" target="_blank">api/matches.php?key={user}</a></h2>
   	<p>Dit endpoint geeft informatie over 0-10 willekeurige matches.</p>
